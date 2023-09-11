@@ -1,0 +1,31 @@
+QWidget#box2>QLabel{
+    background-color:pink
+}
+
+QCheckBox:checked,QCheckBox:hover{
+    background-color:red
+}
+QCheckBox::indicator{
+    width:20px;
+    height:20px
+}
+QCheckBox::indicator:checked{
+    image:url(../basestudy/test.png)
+}
+QCheckBox::indicator:unchecked{
+    image:url(../basestudy /test.png)
+}
+QPushButton:pressed {
+    border:2px dotted orange
+}
+QWidget:!focus{
+    border:2px solid green
+}
+QWidget:disabled{
+    font-size:26px;
+    background-color:orange;
+}
+QWidget:enabled{
+    font-size:16px
+    background-color:lightgray
+}

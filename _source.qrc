@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="lk">
+    <file>basestudy/test.png</file>
+  </qresource>
+  <qresource prefix="TestLk">
+    <file>basestudy/close.png</file>
+  </qresource>
+</RCC>
